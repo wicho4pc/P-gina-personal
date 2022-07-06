@@ -1,0 +1,377 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html
+{
+  scroll-behavior:smooth;
+}
+
+body{
+    background-color: #252527;
+}
+
+    .navbar{
+        background-color: #1a1a1b65;
+        border-radius: 2%;
+    }
+
+    .navbar a {
+        color: white;
+    }
+
+    .navbar a:hover {
+        color: #ED0B0D;
+    }
+
+    #inicio{
+        margin: 20px 5% 0 5%;
+    }
+
+        #inicioTexto{
+            color: white;
+            text-align: center;
+        }
+
+        #vahl{
+            color: #ED0B0D;
+        }
+
+        #logo{
+            height: 500px;
+            margin: auto;
+            display: block;
+        }
+
+        #high{  
+        min-height: 225px;
+        }
+            #exp{
+                position: absolute;
+                margin: 20px 0 20px 0;
+                width: 500px;
+                max-height: 180px;
+                min-height: 180px;
+                border-radius: 25px;
+                background-color: #1a1a1b;
+            }
+                #expImg{
+                    position: absolute;
+                    margin: 40px 0 40px 40px    ;
+                    max-height: 100px;
+                    max-width: 100px;
+                }
+                #expTexto{
+                    position: absolute;
+                    margin: 20px 40% 40px 45%;
+                    color: white;
+                    text-align: center;
+                }
+                    #expNum{
+                        color: #ED0B0D;
+                    }
+            #proy{
+                position: absolute;
+                margin: 20px 0 20px 610px;
+                width: 500px;
+                min-height: 180px;
+                border-radius: 25px;
+                background-color: #1a1a1bf3;
+            }
+                #proyImg{
+                    position: absolute;
+                    margin: 40px 0 40px 40px    ;
+                    max-height: 100px;
+                    max-width: 100px;
+                }
+                #proyTexto{
+                    position: absolute;
+                    margin: 20px 40% 40px 45%;
+                    color: white;
+                    text-align: center;
+                }
+                    #proyNum{
+                        color: #ED0B0D;
+                    }
+            #satis{
+                position: absolute;
+                margin: 20px 40px 20px 1210px;
+                width: 500px;
+                min-height: 180px;
+                border-radius: 25px;
+                background-color: #1a1a1b;
+            }
+                #satisImg{
+                    position: absolute;
+                    margin: 40px 0 40px 40px    ;
+                    max-height: 100px;
+                    max-width: 100px;
+                }
+                #satisTexto{
+                    position: absolute;
+                    margin: 20px 40% 40px 45%;
+                    color: white;
+                    text-align: center;
+                }
+                    #satisNum{
+                        color: #ED0B0D;
+                    }
+            #exp:hover{
+                transform: scale(1.2);
+            }
+            #proy:hover{
+                transform: scale(1.2);
+            }
+            #satis:hover{
+                transform: scale(1.2);
+            }
+    
+    #acerca{
+        margin: 20px 5% 0 5%;
+        max-height: 550px;
+        min-height: 550px;
+    }
+        #acercaImgBck{
+            position: absolute;
+        }
+        #acercaImg{
+            position: absolute;
+            margin: 0px 0 0 115px;
+        }
+        #acercaTexto{
+            position: absolute;
+            margin: 10px 0 0 800px;
+            max-height: 520px;
+            min-height: 520px;
+            min-width: 800px;
+        }
+            #acercaHeader{
+                position: relative;
+                min-height: 55px;
+                max-width: 150px;
+                margin: 10px;
+                border-radius: 30px;
+                background-color: #1a1a1b;
+            }
+                #acercaHeaderTxt{
+                    color: #ED0B0D;
+                    padding: 10px 35px;
+                    font-size: 25px;
+                }
+            #acercaTxt{
+                position: relative;
+                margin: 40px 20px;
+                color: white;
+            }
+
+    #habilidades{
+        margin: 20px 5% 0 5%;
+        min-height: 250px
+    }
+        #habHeader{
+            position: relative;
+            min-height: 55px;
+            max-width: 200px;
+            border-radius: 30px;
+            background-color: #1a1a1b;
+        }
+            #habHeaderTxt{
+                color: #ED0B0D;
+                padding: 10px 35px;
+                font-size: 25px;
+            }
+        #habTxt{
+            float: left;
+            color: white;
+        }
+            #habContSm{
+                font-size: 18px;
+            }
+        #habGrid{
+            margin: 0 0 0 50%;
+            padding: 0 60px 30px 60px;
+            position: relative;
+            max-height: 500px;
+            min-height: 250px;
+            min-width: 800px;
+        }
+            .uno{
+                position: absolute;
+                background-color: #1a1a1b;
+                padding: 20px;
+                min-height: 80px;
+                min-width: 80px;  
+            }   
+            .dos{
+                position:absolute;
+                background-color: #1a1a1b;
+                padding: 20px;
+                margin-left: 120px;
+                min-height: 80px;
+                min-width: 80px;   
+            } 
+            .tres{
+                position:absolute;
+                background-color: #1a1a1b;
+                padding: 20px;
+                margin-left: 240px;
+                min-height: 80px;
+                min-width: 80px;   
+            } 
+            .cuatro{
+                position:absolute;
+                background-color: #1a1a1b;
+                padding: 20px;
+                margin-left: 360px;
+                min-height: 80px;
+                min-width: 80px;   
+            } 
+            .cinco{
+                position:absolute;
+                background-color: #1a1a1b;
+                padding: 20px;
+                margin-left: 480px;
+                min-height: 80px;
+                min-width: 80px;   
+            } 
+            .seis{
+                position:absolute;
+                background-color: #1a1a1b;
+                padding: 20px;
+                margin-left: 600px;
+                min-height: 80px;
+                min-width: 80px;   
+            } 
+            .siete{
+                position:absolute;
+                background-color: #1a1a1b;
+                padding: 20px;
+                margin: 100px 0;
+                min-height: 80px;
+                min-width: 80px;   
+            }
+            .ocho{
+                position:absolute;
+                background-color: #1a1a1b;
+                padding: 20px;
+                margin: 100px 120px;
+                min-height: 80px;
+                min-width: 80px;   
+            } 
+            .nueve{
+                position:absolute;
+                background-color: #1a1a1b;
+                padding: 20px;
+                margin: 100px 240px;
+                min-height: 80px;
+                min-width: 80px;   
+            } 
+            .diez{
+                position:absolute;
+                background-color: #1a1a1b;
+                padding: 20px;
+                margin: 100px 360px;
+                min-height: 80px;
+                min-width: 80px;   
+            } 
+            .once{
+                position:absolute;
+                background-color: #1a1a1b;
+                padding: 20px;
+                margin: 100px 480px;
+                min-height: 80px;
+                min-width: 80px;   
+            } 
+            .doce{
+                position:absolute;
+                background-color: #1a1a1b;
+                padding: 20px;
+                margin: 100px 600px;
+                min-height: 80px;
+                min-width: 80px;   
+            }
+            .fig:hover{
+                transform: scale(1.5);
+            }
+        
+        
+    #portafolio{
+        margin: 20px 5% 0 5%;
+        min-height:800px;
+        min-width: auto;
+    }
+        #portHeader{
+            position: relative;
+            margin-bottom: 20px;
+            margin-left: 44%;
+            min-height: 55px;
+            max-width: 200px;
+            border-radius: 30px;
+            background-color: #1a1a1b;
+            text-align: center;
+        }
+            #portHeaderTxt{
+                color: #ED0B0D;
+                padding: 10px 0;
+                font-size: 25px;
+            }
+            #portCont{
+                position: relative;
+                margin: 20px 20% 0 26%;
+                max-width: 800px;
+            }
+    
+    #contacto{
+        margin: 20px 5% 0 5%;
+        min-height: 700px;
+    }
+        #contHeader{
+            background-color: #ED0B0D;
+            min-height: 200px;
+            position: relative;
+            margin: 0 10% 0 10%;
+            padding: 60px 70px;
+            border-radius: 10px;
+            border: #1a1a1b solid 2px;
+        }
+            #cont1{
+                float: left;
+            }
+            #cont2{
+                float: left;
+                margin-left: 130px;
+            }
+            #boton{
+                position: absolute;
+                margin: 15px 900px;
+            }
+    footer{
+        margin: 115px 0px;
+        position: absolute;
+        background-color: #1a1a1b;
+        min-height: 600px;
+        min-width: 1900px;
+    }
+        #footHeader{
+            position: absolute;
+            margin: 200px 30px;
+            color: white;
+        }
+            #footHeaderTxt{
+                color: #ED0B0D;
+            }
+        #footCont{
+            position: absolute;
+            color: white;
+            margin: 200px 400px;
+        }
+
+        #footRed{
+            position: absolute;
+            color: white;
+            margin: 200px 630px;
+        }
+            #dir{
+                color: gray;
+            }
